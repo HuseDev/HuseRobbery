@@ -99,13 +99,6 @@ AddEventHandler('HuseRobbery:PolitiOpkald', function()
     end
 end)
 
-AddEventHandler('onResourceStart', function(resourceName)
-    if (GetCurrentResourceName() ~= resourceName) then
-      return
-    end
-    Print('HuseRobbery made by Huse#5445')
-end)
-
 -----------------------
 -- Made by Huse#5445 --
 -----------------------
